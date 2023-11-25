@@ -1,0 +1,13 @@
+export default function Resister(){
+    return(
+        <div>
+            <form method="POST" action="/api/auth/signup">
+                <input name="name" type="text"  placeholder="이름"/>
+                <input name="email" type="text"  placeholder="이메일"/>
+                <input name="password" type="password"  placeholder="비밀번호"/>
+                <button type="submit">Id/Pw 가입요청</button>
+
+            </form>
+        </div>
+    )
+}
